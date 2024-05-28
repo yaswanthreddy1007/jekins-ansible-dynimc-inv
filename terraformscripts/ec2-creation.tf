@@ -5,7 +5,7 @@ provider "aws"{
 resource "aws_instance" "AWSEC2Instance"{
   ami="ami-0cc9838aa7ab1dce7"
   instance_type= "t2.micro"
-  key_name= "devopsmarch6batch.pem"
+  key_name= "devopsmarch6batch"
   security_groups=["launch-wizard-2"]
   tags={
     Name= "Terraform"
