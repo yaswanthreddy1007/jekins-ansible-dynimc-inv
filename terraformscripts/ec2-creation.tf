@@ -9,7 +9,11 @@ resource "aws_instance" "AWSEC2Instance"{
     key_name= "devopsmarch6batch"
     security_groups=["launch-wizard-24"]
     tags={
-        Name="server1","server2","server3","server4"
+        Name="server1"
+        Name="server2"
+        Name="server2"
+        Name="server2"
+    
     }
 }   
 
