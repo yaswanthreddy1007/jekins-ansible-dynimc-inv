@@ -11,8 +11,8 @@ resource "aws_instance" "AWSEC2Instance"{
     tags={
         Name="server1"
         Name="server2"
-        Name="server2"
-        Name="server2"
+        Name="server3"
+        Name="server4"
     
     }
 }   
